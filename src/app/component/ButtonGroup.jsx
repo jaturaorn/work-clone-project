@@ -1,6 +1,6 @@
 const ButtonGroup = () => {
   return (
-    <div className="flex justify-center mb-5">
+    <div className="flex justify-center bg-base-100 pt-5">
       <div className="btn-group">
         <input
           type="radio"
