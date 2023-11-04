@@ -1,22 +1,17 @@
 import Image from "next/image";
-import CardProduct2 from "./CardProduct2";
-import CardProduct3 from "./CardProduct3";
+import CardProduct4 from "./CardProduct4";
+import CardProduct5 from "./CardProduct5";
 
-const CardProduct = () => {
+const CardProduct1 = () => {
   return (
-    <div className="flex justify-center flex-row-3 gap-3 mb-5">
+    <div className="flex justify-center flex-row-3 gap-3 my-5">
       <div className="card card-compact w-96 bg-base-100 shadow-xl">
         <figure>
-          <Image
-            src="/img/Headphone.jpg"
-            width={400}
-            height={400}
-            alt="Headphone"
-          />
+          <Image src="/img/Watch.jpg" width={400} height={400} alt="Watch" />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">Headphone!</h2>
-          <p>If a dog chews shoes whose Headphone does he choose?</p>
+          <h2 className="card-title">Watch!</h2>
+          <p>If a dog chews shoes whose Watch does he choose?</p>
           <div className="flex">
             <p className="text-lg text-[#F6422E] pt-3">
               ฿<span>559</span>
@@ -32,10 +27,10 @@ const CardProduct = () => {
           </div>
         </div>
       </div>
-      <CardProduct2 />
-      <CardProduct3 />
+      <CardProduct4 />
+      <CardProduct5 />
     </div>
   );
 };
 
-export default CardProduct;
+export default CardProduct1;
