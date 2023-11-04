@@ -4,7 +4,7 @@ import CardProduct8 from "./CardProduct8";
 
 const CardButton6 = () => {
   return (
-    <div className="flex justify-center flex-row-3 gap-3 my-3 bg-base-100 p-4">
+    <div className="flex justify-center flex-row-3 gap-3 bg-base-100 p-4">
       <div className="card card-compact w-96 bg-base-100 shadow-xl">
         <figure>
           <Image

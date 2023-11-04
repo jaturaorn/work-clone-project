@@ -4,7 +4,7 @@ import CardProduct5 from "./CardProduct5";
 
 const CardProduct1 = () => {
   return (
-    <div className="flex justify-center flex-row-3 gap-3 my-3 bg-base-100 p-4">
+    <div className="flex justify-center flex-row-3 gap-3 bg-base-100 p-4">
       <div className="card card-compact w-96 bg-base-100 shadow-xl">
         <figure>
           <Image src="/img/Watch.jpg" width={400} height={400} alt="Watch" />
